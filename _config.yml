@@ -1,6 +1,6 @@
 title: RM Projects
 author:
-  name: Rafi Mahmood
+  name: RM
 #  email: your-email@domain.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
@@ -13,7 +13,7 @@ description: >
 # Build settings
 
 # If you clone the Minima repo and build locally, use this setting.
-# theme: minima
+#theme: minima
 
 # As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
 # If you want to use the latest Minima version on GitHub Pages, use the following setting and 
@@ -23,7 +23,6 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
 # Theme-specific settings
 
@@ -31,7 +30,6 @@ plugins:
 # in order as they should show up.
 header_pages:
   - about.md
-  - home.html
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
