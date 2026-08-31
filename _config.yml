@@ -1,4 +1,5 @@
-title: RM Projects
+title: RM's Research
+email: rafi012345@gmail.com
 author:
   name: RM
 #  email: your-email@domain.com
@@ -6,7 +7,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  RM Projects
+  RM's Research
 
 # Build settings
 
@@ -30,7 +31,7 @@ header_pages:
   - about.md
 
 # Set to `true` to show excerpts on the homepage.
-#show_excerpts: false
+show_excerpts: true
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
