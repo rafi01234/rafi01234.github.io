@@ -20,7 +20,7 @@ A quick background on QR codes for those who want to know: *QR* actually stands 
     <li><p style="color: #C1AA9C; margin: 0;">Timing Patterns - alternating black and white pixels between the corners, to measure the size of the grid.</p></li>
     <li>Data Area - the main block of pixels that holds the actual data.</li>
     <li><p style="color: #2C4B80; margin: 0;">Format Information - determines mask pattern and error correction level.</p></li>
-    <li><p style="color: #7ED7AE; margin: 0;">Quiet Zone - the white border around a QR code, to identify where it begins/ends.</p></li>
+    <li>Quiet Zone - the white border around a QR code, to identify where it begins/ends.</p></li>
   </ol>
 </div>
 
