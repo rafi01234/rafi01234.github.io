@@ -16,7 +16,7 @@ A quick background on QR codes for those who want to know: *QR* actually stands 
   <img src="/assets/images/QR-code-patterns.png" alt="QR code patterns" style="width: 250px; flex-shrink: 0; border-radius: 8px; margin-bottom: 0;" />
   <ol style="margin-top: 0; padding-left: 20px;">
     <li><p style="color: #A72929; margin: 0 0 10px 0;">Finder Patterns - the three large corner squares, to identify and orientate. </p><p style="color: #7ED7AE; margin: 0;">These are always surrounded by Separators (empty lines).</p></li>
-    <li>Alignment Patterns - smaller squares to allow the reader to measure how the grid might be skewed/warped. These are'nt always present on smaller QR codes.</li>
+    <li>Alignment Patterns - smaller squares to allow the reader to measure how the grid might be skewed/warped. These aren't always present on smaller QR codes.</li>
     <li><p style="color: #C1AA9C; margin: 0;">Timing Patterns - alternating black and white pixels between the corners, to measure the size of the grid.</p></li>
     <li>Data Area - the main block of pixels that holds the actual data.</li>
     <li><p style="color: #2C4B80; margin: 0;">Format Information - determines mask pattern and error correction level.</p></li>
