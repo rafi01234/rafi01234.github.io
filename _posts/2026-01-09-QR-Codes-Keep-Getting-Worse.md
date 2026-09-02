@@ -12,15 +12,15 @@ I already have a great distrust of QR codes, and for the most part don't really 
 
 A quick background on QR codes for those who want to know: *QR* actually stands for *Quick Response*, and they were invented in 1994 by engineer Masahiro Hara at Denso Wave in order to track car parts more efficiently during manufacturing. I won't go into the hyper-specifics of how they work, but generally they have five key areas/patterns: 
 
-<div style="overflow: auto; margin: 20px 0;">
-  <img src="/assets/images/QR-code-patterns.png" alt="QR code patterns" style="float: left; width: 250px; margin-right: 20px; margin-bottom: 10px; border-radius: 8px;" />
+<div style="display: flex; align-items: flex-start; gap: 20px; margin: 20px 0;">
+  <img src="/assets/images/QR-code-patterns.png" alt="QR code patterns" style="width: 250px; flex-shrink: 0; border-radius: 8px; margin-bottom: 0;" />
   <ol style="margin-top: 0; padding-left: 20px;">
-    <li><p style="color: #A72929;">Finder Patterns - the three large corner squares, to identify and orientate. </p><p style="color: #7ED7AE;">These are always surrounded by Separators (empty lines).</p></li>
-    <li>Alignment Patterns - smaller squares to allow the reader to measure how the grid might be skewed/warped. These are not always present on smaller QR codes.</li>
-    <li><p style="color: #C1AA9C;">Timing Patterns - alternating black and white pixels between the corners, to measure the size of the grid.</p></li>
+    <li><p style="color: #A72929; margin: 0 0 10px 0;">Finder Patterns - the three large corner squares, to identify and orientate. </p><p style="color: #7ED7AE; margin: 0;">These are always surrounded by Separators (empty lines).</p></li>
+    <li>Alignment Patterns - smaller squares to allow the reader to measure how the grid might be skewed/warped. These are'nt always present on smaller QR codes.</li>
+    <li><p style="color: #C1AA9C; margin: 0;">Timing Patterns - alternating black and white pixels between the corners, to measure the size of the grid.</p></li>
     <li>Data Area - the main block of pixels that holds the actual data.</li>
-    <li><p style="color: #2C4B80;">Format Information - determines mask pattern and error correction level.</p></li>
-    <li><p style="color: #7ED7AE;">Quiet Zone - the white border around a QR code, to identify where it begins/ends.</p></li>
+    <li><p style="color: #2C4B80; margin: 0;">Format Information - determines mask pattern and error correction level.</p></li>
+    <li><p style="color: #7ED7AE; margin: 0;">Quiet Zone - the white border around a QR code, to identify where it begins/ends.</p></li>
   </ol>
 </div>
 
