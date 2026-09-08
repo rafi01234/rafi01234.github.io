@@ -6,7 +6,7 @@ categories: research
 
 I came across [this research by Steve Legere](https://sansorg.egnyte.com/dl/7cfd6RM3TyHM) a few weeks ago on how QR codes can bypass enterprise email gateways, and it certainly piqued my interest.
 
-I already have a great distrust of QR codes (*due to countless reporting of b bad actors replacing QR codes with malicious ones in public spaces*), and for the most part don't really see the point in them (*why do I need to scan one AND be connected to the internet to read a menu, I'm just trying to eat*). If they are taking me to a specific URL that is tailored to my access, that makes more sense; but for generic URLs *please* just give me the link.
+I already have a great distrust of QR codes (*due to countless reporting of bad actors replacing QR codes with malicious ones in public spaces*), and for the most part don't really see the point in them (*why do I need to scan one AND be connected to the internet to read a menu, I'm just trying to eat*). If they are taking me to a specific URL that is tailored to my access, that makes more sense; but for generic URLs *please* just give me the link.
 
 ## What's in a QR code?
 
