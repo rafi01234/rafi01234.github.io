@@ -16,13 +16,13 @@ The fridges are controlled by controllers (who would have guessed!?).
 
 The controllers are managed by system managers (nice).
 
-These particular system managers (Danfoss AK-SM and AK-SC) appear to be at different stages of their lifecycle. The AK-SC series were phased out and ultimately end-of-life in 2016 (https://www.scribd.com/document/398859172/AK-SC255-355-Phase-Out), while the AK-SM series was identified as the immediate replacement for these. However, the AK-SM 800 system manager is also end-of-life as of 2021 (https://assets.danfoss.com/documents/latest/535265/AO540953778522en-010101.pdf).
+These particular system managers (Danfoss AK-SM and AK-SC) appear to be at different stages of their lifecycle. The AK-SC series were [phased out and ultimately end-of-life in 2016](https://www.scribd.com/document/398859172/AK-SC255-355-Phase-Out), while the AK-SM series was identified as the immediate replacement for these. However, the AK-SM 800 system manager is [also end-of-life as of 2021](https://assets.danfoss.com/documents/latest/535265/AO540953778522en-010101.pdf).
 
 *Interestingly, in this PDF they outline and describe some previous attacks targeting these end-of-life devices, so this not being fixed or heeded by the victims is another point of irresponsibility.*
 
 These being end-of-life means that they "can no longer be updated to meet the latest regulatory requirements or industry standards", to quote Danfoss directly. As such, they do not receive any software or security updates, and should be replaced by more modern and active models.
 
-*However*, the still-in-life AK-SM 800A system manager was also affected, reportedly as they were running outdated firmware (https://www.coolingpost.com/world-news/danfoss-moves-to-mitigate-cyberattack/).
+*However*, the still-in-life AK-SM 800A system manager was also affected, [reportedly as they were running outdated firmware](https://www.coolingpost.com/world-news/danfoss-moves-to-mitigate-cyberattack/).
 
 ***OK, so the controllers weren't very secure. Neither are a lot of things.***
 
@@ -60,4 +60,4 @@ More stats from Shodan on this can be found [here](https://trends.shodan.io/sear
 
 Another interesting and eerily similar report I saw discussed some recent failures/issues impacting some US military installations in August. I won't go into the post in too much detail here as I recommend you giving it a read [here](https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary) instead. But basically, some fridges at some US military bases, *that may or may not be using Danfoss AK-SM controllers*, reported to reach 180°F (~82°C) at around the same time, resulting in spoiled goods.
 
-For the regular member of the public, so *you* probably, this likely doesn't mean too much. You may be inconvenienced and have to go to another shop to do your grocery shopping, but outside of that, just be cautious of things you expose to the internet - I'm sure someone will find a similar vulnerability in smart fridges at some point if they haven't already. **Do you really need one?**
+For the regular member of the public, so *you* probably, this likely doesn't mean too much. You may be inconvenienced and have to go to another shop to do your grocery shopping, but outside of that, just be cautious of things you expose to the internet - I'm sure someone will find a similar vulnerability in smart fridges at some point if they haven't already. **So I guess the question is, do you really need one?**
