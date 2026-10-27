@@ -46,7 +46,7 @@ The motivation behind the attack is currently unclear, so we can't exactly say w
 
 It means that supermarkets and other places that use these devices need to patch, update, and/or replace them as appropriate. They also need to take the devices off the publicly accessible internet, and instead use a VPN or something similar for limited, specified remote access. 
 
-According to [Shodan](https://www.shodan.io) (a search engine for internet-conencted devices), there are over 5,000 Danfoss devices exposed to the internet, so not a small number.
+According to [Shodan](https://www.shodan.io) (a search engine for internet-connected devices), there are over 5,000 Danfoss devices exposed to the internet, so not a small number.
 
 ![Internet-connected Danfoss devices over time](/assets/images/Shodan-Danfoss-Over-Time.png)
 
